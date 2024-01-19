@@ -21,7 +21,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                // Deploy the Spring Boot application (you may need additional steps depending on your deployment target)
+                // Deploy the Spring Boot application (replace with your deployment command)
                 // sh 'java -jar target/your-spring-boot-app.jar'
             }
         }
